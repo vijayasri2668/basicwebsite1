@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    background-color:#b0c4de;
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+.menu ul li{
+    list-style-type: none;
+    margin: 0px 25px;
+    color: mediumblue;
+    cursor: pointer;
+}
+.icon li{
+    color: mediumblue;
+}
+.signup-btn{
+    border:1px solid transparent;
+    top:40px;
+    right:80px;
+    position: absolute;
+    color:white;
+    text-decoration: none;
+    border-radius: 20px;
+    background-image: linear-gradient(#b0c4de, #b0c4de), radial-gradient(circle at top left,yellow,blue );
+    background-origin: border-box;
+    background-clip: content-box, border-box;   
+}
+.signup-btn span{
+    display: block;
+    padding: 8px 20px;
+}
+.banner{
+    width:85%;
+    height:75%;
+    top:25%;
+    left:130px;
+    color:mediumblue;
+    position: absolute;
+}
+.text{
+    width:60%;
+    float:left;
+}
+.text h1{
+    font-size: 35px;
+    width:650px;
+    position: relative;
+    margin-left:40px;
+}
+.text p{
+    font-size:15px;
+    width:650px;
+    color: rgb(87, 87, 179);
+    margin: 30px 0px 30px 40px;
+    line-height: 30px;
+}
+.picture{
+    width:50%;
+    float:right;
+}
+.picture img{
+    width: 90%;
+    margin-top: 20px;
+    padding-left: 50px;
+}
+.astric{
+    margin-left: 40px;
+    display: inline-flex;
+}
+.astric-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: linear-gradient(#b0c4de, #b0c4de), radial-gradient(circle at top left,yellow,blue );
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    text-align: center;
+    border:2px solid transparent;
+    cursor: pointer;
+    color: mediumslateblue;
+}
+.astric-icon i{
+    padding: 18px 0;
+}
+small{
+    margin:auto 20px;
+    letter-spacing: 3px;
+    font-size: 12px;
+    color: rgb(87, 87, 179);
+    cursor: pointer;
+}
+.links{
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(rgb(74, 211, 235), rgb(36, 147, 211));
+}
+.links ul{
+    display: inline-flex;
+    margin: 30px auto;
+    text-align: center;
+}
+.links ul li{
+    list-style: none;
+    margin: 0 50px;
+    cursor: pointer;
+}
+.links ul li i{
+    color: rgb(9, 75, 114);
+    font-size: 25px;
+}
+.links ul li p{
+    color: mediumblue;
+}
